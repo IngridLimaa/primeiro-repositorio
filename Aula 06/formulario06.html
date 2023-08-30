@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2>Elemento de formulário</h2>
+    <FOrm action="mailto:ingridlimaa20@outloo.com " method="post"> <!---form abertura de formulário--->
+
+        <label for="cName"> Nome: </label> <!---label legenda--->
+        <input type="text" id="cName"> <!---input caixa de texto--->
+
+        <label for="snome">Sobrenome:</label>
+        <input type="text" id="snome">
+
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade">
+
+        <label for="eml"> E-mail:</label>
+        <input type="email" id="eml" required>
+
+        <label for="csenha">Senha:</label>
+        <input type="text" id="eml" required>
+
+
+        <input type="submit" value="Enviar">
+        <br><br>
+        <p>QUAL É O SEU GENÉRO:</p>
+        <label for="op2">Feminino</label>
+        <input type="radio" name="curso">
+        <br>
+        <label for="op3">Maculino</label>
+        <input type="radio" name="curso">
+        <br>
+        <label for="op4">Binário</label>
+        <input type="radio" name="curso">
+        <br>
+        <label for="op1">Não Binário</label>
+        <input type="radio" name="curso ">
+        <br>
+        <label for="op1">Não quero declarar</label>
+        <input type="radio" name="curso ">
+        <br>
+        <hr>
+
+        <P>PROBELMAS DE SAÚDE:</P>
+
+        <label for="op2">Rinite</label>
+        <input type="radio" name="curso">
+
+        <label for="op2">Cardiaco(a)</label>
+        <input type="radio" name="curso">
+
+        <label for="op2">Epatite</label>
+        <input type="radio" name="curso">
+
+        <label for="op2">Peste negra</label>
+        <input type="radio" name="curso">
+
+        <label for="op2">Febre amarela</label>
+        <input type="radio" name="curso">
+
+        <label for="op2">COVID19</label>
+        <input type="radio" name="curso">
+        <br>
+        <hr>
+        <p>ASSUNTOS DENTRO DO CURSO DE WEB:</p>
+
+        <input type="checkbox" nome="transpl" id="transpl" value="tp1">
+        <label for="transpl">HTML</label>
+        <br>
+
+        <input type="checkbox" name="transp2" id="transp2" value="tp2">
+        <label for="transp3">CSS</label>
+        <br>
+
+        <input type="checkbox" nome="transp3" id="transp3" value="tp3">
+        <label for="transp3">JAVASCRIPT</label>
+        <br>
+        <input type="checkbox" nome="transp4" id="transp4" value="tp4">
+        <label for="transp4">GIT & GITHUB</label>
+        <br>
+        <input type="checkbox" nome="transp5" id="transp5" value="tp5">
+        <label for="transp5">PITON</label>
+        <br>
+        <input type="checkbox" nome="transp6" id="transp6" value="tp6">
+        <label for="transp6">SQL</label>
+        <br>
+        <input type="checkbox" nome="transp6" id="transp6" value="tp6">
+        <label for="transp6">JAVA</label>
+        <br>
+        <input type="checkbox" nome="transp6" id="transp6" value="tp6">
+        <label for="transp6">PHP</label>
+        <br>
+        <hr>
+        <p>OUTROS CURSOS:</p>
+
+        <label for="op2">MICROSOFT OFFICE ESSENCIAL</label>
+        <input type="radio" name="curso">
+        <br>
+        <label for="op2">POWER B.I</label>
+        <input type="radio" name="curso">
+        <br>
+        <label for="op2">GESTÃO EMPRESARIAL- ERP TOTVS</label>
+        <input type="radio" name="curso">
+        <br>
+        <label for="op2">SUPORTE T.I</label>
+        <input type="radio" name="curso">
+        <br>
+        <label for="op2">INGLÊS</label>
+        <input type="radio" name="curso">
+        <br>
+        <label for="op2">GESTÃO E COMUNICAÇÃO</label>
+        <input type="radio" name="curso">
+        <hr>
+        <p>TURNOS:</p>
+
+        <input type="checkbox" nome="transp6" id="transp6" value="tp6">
+        <label for="transp6">Manhã</label>
+
+        <input type="checkbox" nome="transp6" id="transp6" value="tp6">
+        <label for="transp6">Tarde</label>
+
+        <input type="checkbox" nome="transp6" id="transp6" value="tp6">
+        <label for="transp6">Noite</label>
+        <hr>
+    </FOrm>
+    <form action="mailto:ingridlimaa20@outlook.com" method="post">
+
+        <label for="time">ESCOLHA A SUA CIDADE:</label>
+
+        <select name="time" id="time">
+
+            <option value="op1" disabled selected>Selecione sua cidade</option>
+            <option value="Fluminense">Veneza</option>
+            <option value="Bota Fogo">Cairo</option>
+            <option value="Cruzeiro">Jerusalém</option>
+            <option value="Flamengo">Moscou</option>
+            <option value="Roma">Roma</option>
+
+        </select>
+        <br>
+        <hr>
+        <label for="cCidade">Qual é seu País:</label>
+        <input type="text" name="cCidade" id="cCidade" list="sugestao" placeholder="Seu País">
+
+        <datalist id="sugestao">
+
+            <option value="Egito"></option>
+            <option value="Grécia"></option>
+            <option value="Israel"></option>
+            <option value="Itália"></option>
+            <option value="Russia"></option>
+
+        </datalist>
+        <hr>
+        <p>QUÃO LINDA E PERFEITA VC ESTÁ HOJE?</p>
+        <input type="range" name="valor_01" id="valor_01">2.000 <br>
+        <hr>
+        <label for="text01">Manda o roblema ai meu nobre:</label>
+        <br>
+        <textarea name="text01" id="text01" cols="50" rows="10" maxlength="20
+                                " required></textarea>
+
+        <fieldset>
+
+            <legend>Identificação:</legend>
+            <label for="cNome">Nome</label> <br>
+            <input type="text" size="60" name="Tnome" id="cNome" required="required">
+
+            <br></br>
+            <p>Residência</p>
+            <input type="radio" name="tipo" id="cid" value="C" />
+            <label for="cid">Apartamento</label>
+            <br>
+            <input type="radio" name="tipo" id="cid" value="I">
+            <label for="cid">Casa</label>
+
+        </fieldset>
+        <input type="submit" value="enviar">
+    </form>
+
+</body>
+
+</html>
